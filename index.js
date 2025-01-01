@@ -7,7 +7,7 @@ const port = process.env.PORT || 8000;
 
 app.use(
     cors({
-        origin: ["https://chat-app-frontend-psi-three.vercel.app"],
+        origin: ["https://fullstack-chatapp-8ts0.onrender.com"],
         credentials: true,
     })
 );
